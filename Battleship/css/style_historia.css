@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-size: 100vw 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 black;
+}
+
+h1{
+    color: gray;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px 0  black;
+}
+
+img{
+    width: 235px;
+    height: 75px;
+    position: center;
+}
+
+h2{
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul li{
+display: inline-block;
+padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover{
+    color: red;
+}
+
+.fondo_para_historia{
+    position: absolute; left: 28px;
+    width: 1225px;
+    height: 445px;
+    background: rgba(0, 0, 0, .4);
+    margin: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 20px;
+    color:white;
+    text-align:center;
+    border-radius: 15px ;
+}
+
+.fondo_para_historia, p{
+    font-family:'Cursive', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    margin: 15px 5px 10px;
+    text-shadow: 10px   10px   10px  black; 
+}
+
+.fondo_para_historia p{
+    text-align: justify;
+}
